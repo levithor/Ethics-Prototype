@@ -73,70 +73,106 @@
 .about-container {
   max-width: 850px;
   margin: 0 auto;
-  padding: 45px 20px;
+  padding: 120px 20px 50px;
   color: #333;
 }
 
-/* Intro */
+
+/* =========================
+   INTRO
+   ========================= */
+
 .intro-section {
-  margin-bottom: 42px;
+  margin-bottom: 50px;
 }
 
 .intro-section h1 {
-  margin: 0 0 12px;
+  margin: 0 0 16px;
+
   color: #2c3e50;
+
   font-size: 38px;
   line-height: 1.2;
 }
 
 .intro-text {
-  margin-top: 1rem;
+  margin: 0;
+
   font-size: 1.25rem;
   line-height: 1.75;
+
   color: #555;
 }
 
-/* What it does / does not do */
+
+/* =========================
+   WHAT IT DOES / DOES NOT DO
+   ========================= */
+
 .comparison-section {
   display: grid;
+
   grid-template-columns: 1fr 1fr;
-  gap: 55px;
-  margin-bottom: 42px;
+
+  gap: 65px;
+
+  margin-bottom: 50px;
 }
 
 .column h2,
 .why-section h2 {
-  margin: 0 0 14px;
+  margin: 0 0 16px;
+
   color: #2c3e50;
+
   font-size: 24px;
 }
 
 .column ul {
   margin: 0;
+
   padding-left: 20px;
 }
 
 .column li {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
+
+  font-size: 1.1rem;
   line-height: 1.5;
+
   color: #555;
 }
 
-/* Why it exists */
+
+/* =========================
+   WHY IT EXISTS
+   ========================= */
+
 .why-section {
   margin-bottom: 20px;
 }
 
 .why-text {
-  margin-top: 1rem;
+  margin: 0;
+
   font-size: 1.25rem;
   line-height: 1.75;
+
   color: #555;
 }
 
+
+/* =========================
+   MOBILE
+   ========================= */
+
 @media (max-width: 700px) {
   .about-container {
-    padding: 35px 20px;
+    padding: 105px 20px 40px;
+  }
+
+  .intro-section {
+    margin-bottom: 40px;
   }
 
   .intro-section h1 {
@@ -150,7 +186,7 @@
 
   .comparison-section {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 35px;
   }
 }
 </style>

@@ -2,26 +2,13 @@
   <div class="app">
     <nav class="navbar">
       <div class="nav-container">
-        <router-link to="/" class="logo">
-          T&C Summarizer
-        </router-link>
+        <router-link to="/" class="logo">T&C Lens</router-link>
 
         <div class="nav-links">
-          <router-link to="/" class="nav-link">
-            Home
-          </router-link>
-
-          <router-link to="/analyze" class="nav-link">
-            Analyze
-          </router-link>
-
-          <router-link to="/history" class="nav-link">
-            History
-          </router-link>
-
-          <router-link to="/about" class="nav-link">
-            About
-          </router-link>
+          <router-link to="/" class="nav-link">Home</router-link>
+          <router-link to="/analyze" class="nav-link">Analyze</router-link>
+          <router-link to="/history" class="nav-link">History</router-link>
+          <router-link to="/about" class="nav-link">About</router-link>
         </div>
       </div>
     </nav>
@@ -35,6 +22,10 @@
 <style>
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -51,8 +42,10 @@ body {
 .navbar {
   background: white;
   border-bottom: 1px solid #e5e7eb;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 
