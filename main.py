@@ -17,7 +17,7 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 # แนะนำให้ใช้รุ่น flash เพราะทำงานได้รวดเร็วและเหมาะกับงานสรุปข้อความ
-model = genai.GenerativeModel('gemini-1.5-flash') 
+model = genai.GenerativeModel('gemini-3.5-flash') 
 
 app = FastAPI(title="T&C Summarizer API")
 
