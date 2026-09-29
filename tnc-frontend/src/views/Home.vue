@@ -38,10 +38,6 @@
         <!-- Left -->
         <div class="document-heading">
 
-          <div class="document-eyebrow">
-            WHAT YOU CAN ANALYZE
-          </div>
-
           <h2>
             What can you analyze?
           </h2>
